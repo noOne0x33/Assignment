@@ -61,6 +61,12 @@ build CMakeFiles/Assignment.dir/pattern_2.c.obj: C_COMPILER__Assignment_unscanne
   OBJECT_DIR = CMakeFiles\Assignment.dir
   OBJECT_FILE_DIR = CMakeFiles\Assignment.dir
 
+build CMakeFiles/Assignment.dir/hollow_square_pattern.c.obj: C_COMPILER__Assignment_unscanned_Debug C$:/Users/tanmo/OneDrive/Documents/GitHub/Assignment/hollow_square$ pattern.c || cmake_object_order_depends_target_Assignment
+  DEP_FILE = CMakeFiles\Assignment.dir\hollow_square_pattern.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Assignment.dir
+  OBJECT_FILE_DIR = CMakeFiles\Assignment.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Assignment
@@ -69,7 +75,7 @@ build CMakeFiles/Assignment.dir/pattern_2.c.obj: C_COMPILER__Assignment_unscanne
 #############################################
 # Link the executable Assignment.exe
 
-build Assignment.exe: C_EXECUTABLE_LINKER__Assignment_Debug CMakeFiles/Assignment.dir/pattern_1.c.obj CMakeFiles/Assignment.dir/pattern_2.c.obj
+build Assignment.exe: C_EXECUTABLE_LINKER__Assignment_Debug CMakeFiles/Assignment.dir/pattern_1.c.obj CMakeFiles/Assignment.dir/pattern_2.c.obj CMakeFiles/Assignment.dir/hollow_square_pattern.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Assignment.dir
