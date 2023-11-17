@@ -7,4 +7,5 @@ add_executable(Assignment
         pattern_1.c
         pattern_2.c
         "hollow_square pattern.c"
+        product.c
 )
